@@ -88,8 +88,8 @@ class _MyAppState extends State<MyApp> {
           Expanded(
             child: Row(
               children: [
-                NumButton('^', evalSymbol),
-                NumButton('!', evalSymbol),
+                NumButton('(', evalSymbol),
+                NumButton(')', evalSymbol),
                 NumButton('c', evalSymbol),
                 NumButton('C', evalSymbol),
               ],
